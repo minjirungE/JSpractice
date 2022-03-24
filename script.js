@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded",
-    funtion(e) {
+    function(e) {
         let button = document.querySelector("input")
         button.addEventListener("input",
             function(e) {
