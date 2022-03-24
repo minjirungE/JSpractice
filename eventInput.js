@@ -4,11 +4,9 @@ document.addEventListener("DOMContentLoaded",
         let keydown = document.querySelector("#keydown")
         keydown.addEventListener("keydown", 
             function(e){
-                console.log(e.key)
-                if(e.key === "q"){
-                    alert("this is Q!")
-                }
+                console.log(e.target.value)
             }
+            
         )
 
         let change = document.querySelector("#change")
